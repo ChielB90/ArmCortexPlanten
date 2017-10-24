@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=output.map -O3 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\uC_project -TC:\CooCox\CoIDE\configuration\ProgramData\uC_project/arm-gcc-link.ld -g">
+      <target file="output.elf" lastModified="15f4e481afb">
+         <source file="..\obj\delay.o" lastModified="15f4e454f48"/>
+         <source file="..\obj\os_time.o" lastModified="15f4e454fcc"/>
+         <source file="..\obj\os_cpu_a.o" lastModified="15f4e454ff0"/>
+         <source file="..\obj\keys.o" lastModified="15f4e455074"/>
+         <source file="..\obj\buzzer.o" lastModified="15f4e4550e7"/>
+         <source file="..\obj\os_cpu_c.o" lastModified="15f4e45516b"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="15f4e455223"/>
+         <source file="..\obj\stm32f4xx_pwr.o" lastModified="15f4e455287"/>
+         <source file="..\obj\os_flag.o" lastModified="15f4e455395"/>
+         <source file="..\obj\uart.o" lastModified="15f4e45545d"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15f4e4554d1"/>
+         <source file="..\obj\taskcreate.o" lastModified="15f4e455554"/>
+         <source file="..\obj\main.o" lastModified="15f4e4555ce"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15f4e455696"/>
+         <source file="..\obj\lorawrite_mailbox.o" lastModified="15f4e45570b"/>
+         <source file="..\obj\printf.o" lastModified="15f4e455855"/>
+         <source file="..\obj\sensor_mutex.o" lastModified="15f4e4558b9"/>
+         <source file="..\obj\os_sem.o" lastModified="15f4e455962"/>
+         <source file="..\obj\rtcinterrupt.o" lastModified="15f4e4559b6"/>
+         <source file="..\obj\os_core.o" lastModified="15f4e455b47"/>
+         <source file="..\obj\leds.o" lastModified="15f4e455bca"/>
+         <source file="..\obj\lora.o" lastModified="15f4e4818e8"/>
+         <source file="..\obj\os_mem.o" lastModified="15f4e455e22"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15f4e455ea6"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15f4e455f0a"/>
+         <source file="..\obj\syscalls.o" lastModified="15f4e455f5f"/>
+         <source file="..\obj\os_q.o" lastModified="15f4e456036"/>
+         <source file="..\obj\os_task.o" lastModified="15f4e456124"/>
+         <source file="..\obj\os_mutex.o" lastModified="15f4e4561fc"/>
+         <source file="..\obj\lcd.o" lastModified="15f4e456317"/>
+         <source file="..\obj\misc.o" lastModified="15f4e45637b"/>
+         <source file="..\obj\ucos_ii.o" lastModified="15f4e4563e0"/>
+         <source file="..\obj\stm32f4xx_rtc.o" lastModified="15f4e45654a"/>
+         <source file="..\obj\os_mbox.o" lastModified="15f4e456602"/>
+         <source file="..\obj\lora_mailbox.o" lastModified="15f4e456667"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="15f4e4567e7"/>
+      </target>
+   </processor>
+</history>
