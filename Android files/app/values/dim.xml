@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="AppEdgeTop">16dp</dimen>
+    <dimen name="AppEdgeRight">20dp</dimen>
+    <dimen name="AppEdgeBottom">16dp</dimen>
+    <dimen name="AppEdgeLeft">20dp</dimen>
+    <dimen name="ButtonHeigt">40dp</dimen>
+    <dimen name="ButtonWidth">90dp</dimen>
+</resources>
