@@ -15,10 +15,10 @@
 
 void getData(char address)
 {
-	address++ = address << 1; 			//bitshift address naar links en vul de lege bit met een een voor READ
-	I2C_GenerateSTART(I2C1, ENABLE); 		//stuur START
+	address++ = address << 1; 			        //bitshift address naar links en vul de lege bit met een een voor READ
+	I2C_GenerateSTART (I2C1, ENABLE); 		    //stuur START
 	I2C_Send7bitAddress (I2C1, address +1); 	//stuur adres
-	
+	I2C_ReceiveData (I2C1);	 				    //leest de i2c buffer uit MISSCHIEN IS DIE NIET ZO SNEL VOL PAS OP
 	
 }
 
