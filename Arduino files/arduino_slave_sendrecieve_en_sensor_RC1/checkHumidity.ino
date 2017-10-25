@@ -11,7 +11,7 @@ float checkHumidity() //checkDankness of checkDank zou beter kloppen
   float count = 0;
   bool pinState = digitalRead(SENSORPIN);
   
-  for(int i = micros()+1000; i > micros;) 
+  for(int i = micros()+1000; i > micros(); i = micros()) 
   {
     if (pinState != digitalRead(SENSORPIN)) count++;
     
