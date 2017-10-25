@@ -6,7 +6,7 @@
  * SENSORPIN moet in de main file gedefinet worden.
  */
 
-float checkHumidity()
+float checkHumidity() //checkDankness of checkDank zou beter kloppen
 {
   float count = 0;
   bool pinState = digitalRead(SENSORPIN);
@@ -18,12 +18,10 @@ float checkHumidity()
     pinState = digitalRead(SENSORPIN);
   }
 
-  Serial.print("frequency is: ");
-  Serial.println(count * 500);
+  //Serial.print("frequency is: ");
+  //Serial.println(count * 500);
   
-  return count * 500;
-
-  
+  return count * 500; 
 }
 
 

@@ -28,7 +28,7 @@ void sendFreq() {
   Wire.write(buff.I2Cdata, 4);
 }
 
-void I2CRecieve() {
+void I2CRecieve() { //lees de string uit voor je nieuwe data ontvangt. de string word overschreven
    for(int i = 0; Wire.available(); i++)
    {
     recieveBuff[i] = Wire.read();
